@@ -21,4 +21,4 @@ jobs:
     - name: Run
       shell: bash
       run: |
-        echo 'hello world!!!!' && pwd && ls -lrt   
+        echo 'hello world!!!!' && pwd && ls -lrt && python main.py
