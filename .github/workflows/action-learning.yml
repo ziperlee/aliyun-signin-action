@@ -1,9 +1,8 @@
 name: action learning
 
 on:
-  schedule:
-    - cron: '40 17 * * *'
-  workflow_dispatch:
+  release:
+    types: [published]
 jobs:
   push-msg:
     name: test push
