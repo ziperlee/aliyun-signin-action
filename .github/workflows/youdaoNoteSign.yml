@@ -28,5 +28,6 @@ jobs:
         env:
           USERNAME: ${{ secrets.YDUSERNAME }}
           PASSWORD: ${{ secrets.YDPASSWORD }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         run: |
           python3 youdaoCheckin.py
