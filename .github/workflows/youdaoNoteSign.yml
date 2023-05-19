@@ -22,7 +22,7 @@ jobs:
 
       - name: install-requirement
         run: |
-          pip3 install requests
+          pip install -r requirements.txt
 
       - name: checkin
         env:
