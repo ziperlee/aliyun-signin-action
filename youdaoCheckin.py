@@ -51,7 +51,7 @@ if __name__ == "__main__":
     checkin(username, password)
     
     content= config = {
-        "pushplus_token": environ['PUSHPLUS_TOKEN'],
+        "pushplus_token": os.environ['PUSHPLUS_TOKEN'],
         "pushplus_topic": ""
     }
 #     content = f"有道云笔记签到"
