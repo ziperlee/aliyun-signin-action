@@ -11,8 +11,8 @@ import pushplus
 urllib3.disable_warnings()
 
 
-username = os.environ['YDUSERNAME']
-password = os.environ['YDPASSWORD']
+username = os.environ['USERNAME']
+password = os.environ['PASSWORD']
 
 
 def checkin(username: str, password: str):
