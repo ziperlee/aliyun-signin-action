@@ -1,12 +1,14 @@
 name: YoudaoNote-checkin
 
 on:
-  push:
-  pull_request:
-  watch:
-    types: [ started ]
-  schedule:
-    - cron: '0 18 * * *'
+  release:
+    types: [published]
+#   push:
+#   pull_request:
+#   watch:
+#     types: [ started ]
+#   schedule:
+#     - cron: '0 18 * * *'
 
 jobs:
   YoudaoNote-checkin:
